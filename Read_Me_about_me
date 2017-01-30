@@ -3,5 +3,6 @@
 
  The code in the function gofpoi(inputdata) fits the closest poisson distribution to your data set
  that you feed to the variable--> input data.
+ For the closest fit, we make use of the MLE(Maximum Likelihood estimate) of poisson parameter.
  This goodness of fit function also reports the closesness to a poisson distribution with the pval,
  you can print it out if nessasary.
